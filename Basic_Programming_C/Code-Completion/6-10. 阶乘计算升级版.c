@@ -1,4 +1,4 @@
-void Print_Factorial (const int N )
+void Print_Factorial(const int N )
 {
     if(N < 0)   {printf("Invalid input\n"); return ;}
     int num[3000] = {1};        // 把结果按位分开储存，设个位为 1，其于位为 0

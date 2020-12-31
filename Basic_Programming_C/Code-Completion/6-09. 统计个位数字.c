@@ -1,4 +1,4 @@
-int Count_Digit (const int N, const int D )
+int Count_Digit(const int N, const int D )
 {
     int count = 0, temp = N;
     if(temp < 0) temp *= -1;
